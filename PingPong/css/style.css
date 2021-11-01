@@ -1,0 +1,42 @@
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+#card-container {
+  width: 1180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  min-width: 360px;
+  max-width: 360px;
+  height: 180px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+

@@ -1,0 +1,26 @@
+canvas{
+	display: block;
+	margin: 0 auto;
+}
+#card-container {
+	width: 1180px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card{
+	min-width: 360px;
+	max-width: 360px;
+	height: 180px;
+	flex-grow: 1;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+button{
+	width: 500px;
+	height: 500px;
+}
+
+
